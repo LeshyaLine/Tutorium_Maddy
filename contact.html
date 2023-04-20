@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Madeline" />
+    <meta
+      name="description"
+      content="This page contains the contact information for The Little Plant Shop"
+    />
+    <title>Contact The little Plant Shop</title>
+    <link rel="icon" href="./src/w.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact US</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./plants.html">Our Plants</a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="./src/Cons_Inspiration_joelix-insta-paulmann-04.webp"
+          alt="contact picture"
+          title="Plants ready to buy"
+          width="400"
+          height="267"
+        />
+        <figcaption>Plants to buy</figcaption>
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2>Contact us</h2>
+        <form action="http://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send us a Message</legend>
+            <p>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="your name"
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="your email"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Your Message</label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your Message here"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our Location</h2>
+        <address>
+          856 Plant Tempation Lane, Room Floor <br />
+          Plant City, 25673 Planty
+          <br /><br />
+          Phone: 64235- 98236512
+        </address>
+      </section>
+    </main>
+    <hr />
+
+    <footer>
+      <p>Copyright &copy; The Little Plant Shop</p>
+    </footer>
+  </body>
+</html>
